@@ -1,0 +1,31 @@
+GAUSSIAN
+noise1g:
+1.10- Errors: 148.92
+1.09- Errors: 148.91 -- FINAL ANSWER
+
+noise1sp:
+1.55- Errors: 165.32 188.72 -- FINAL ANSWER (Same for 1.54)
+
+noise2g:
+Gaussian Filter Simga 1.71- Input, Errors: 556.21 (Same for 1.72)
+
+noise2sp:
+Gaussian Filter Simga 1.90- Input, Errors: 349.12
+
+MEDIAN
+Median Filter Neighborhood 5 7- noise1g, Error: 90.11
+Median Filter Neighborhood 3 3- noise1sp, Error: 8.78
+Median Filter Neighborhood 7 9- noise2g, Error: 225.28
+Median Filter Neighborhood 3 3- noise2sp, Error: 18.57
+
+NLM
+noise1g, Error: 102.8368
+noise1sp, Error: 95.7399
+noise2g, Error: 534.652
+noise2sp, Error: 272.9644
+
+EXtension
+noise1g, 335.8137   25.5431
+noise1sp, 335.0533       NaN
+noise2g, 339.8796   21.5914
+noise2sp, 337.1055       NaN

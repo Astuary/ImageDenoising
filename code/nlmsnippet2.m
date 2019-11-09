@@ -1,0 +1,2 @@
+% Get the patch with the pixel (i, j) as its center and halfPatchSize as its radius
+px = img_n(max(1, j - halfPatchSize):min(w, j + halfPatchSize), max(1, i - halfPatchSize):min(h, i + halfPatchSize));
